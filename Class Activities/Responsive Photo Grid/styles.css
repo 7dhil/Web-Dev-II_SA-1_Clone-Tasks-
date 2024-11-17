@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: black
+}
+
+.photo-grid {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(2,1fr);
+    width: 40%;
+    padding-left: 350px;
+    padding-top: 70px;
+}
+
+.photo-grid img{
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1); /*To make the image Responsive*/
+}

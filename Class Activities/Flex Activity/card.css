@@ -1,0 +1,50 @@
+@font-face {
+    font-family: lato;
+    src: url(font/Teko-VariableFont_wght.ttf);
+}
+
+
+body{
+    background-color: black;
+}
+
+.movie2-card {
+    width: 300px;
+    background-color: #fd0202;
+    display: flex;
+    flex-direction: column;
+    color: rgb(7, 7, 7);
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: #ffffff;
+  }
+
+.p{
+    font-family: lato;
+}
+
+.movie2-image{
+    border-radius: 15px;
+    box-shadow: #ffffff;
+  }
+
+  .movie2-3 {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    gap: 0;
+    margin-top: 48px;
+  }
+
+  .movie2btn {  
+    font-family: lato;
+    font-size: 2em;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+

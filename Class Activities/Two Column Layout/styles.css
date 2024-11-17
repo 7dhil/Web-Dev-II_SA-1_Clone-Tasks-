@@ -1,0 +1,57 @@
+
+.h2{
+    font-family: head;
+}
+
+.p{
+    font-family: head;
+}
+body {
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url(/images/bgimg2.jpg);
+}
+
+
+
+/* Sidebar Styling */
+.side-bar {
+    background-color: #fd02029a;
+    color: #ffffff;
+    width: 20%;
+    float: left;
+    position: fixed;
+}
+
+.side-bar a{
+    color: white;
+}
+.side-bar ul{
+    margin-left: 10px;
+}
+
+.side-bar h2 {
+    margin-left: 40px;
+}
+
+.side-bar p {
+    margin-left: 40px;
+    margin-top: -30px;
+}
+
+/* Styling The Main-content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+
