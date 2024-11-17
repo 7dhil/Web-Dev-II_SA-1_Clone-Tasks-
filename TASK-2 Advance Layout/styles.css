@@ -1,0 +1,612 @@
+@font-face {
+  font-family: Teko;
+  src: url(font/Teko-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(font/Lato-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070410;
+  font-family: "Lato";
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: Lato;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #231651;
+}
+nav .logo {
+  color: #ffffff;
+  margin: 16px;
+  font-size: 3em;
+  font-family: "Teko";
+}
+nav ul {
+  margin: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin: 48px;
+  font-family: Lato;
+}
+nav .Search-button {
+  margin: 16px;
+  font-size: 2em;
+  font-family: "Teko";
+  margin-right: 16px;
+  border-radius: 10px;
+}
+
+.main-container {
+  max-width: 900px;
+  padding: 48px;
+  margin: auto auto;
+}
+
+.movie1-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: rgb(11, 11, 11);
+}
+
+.movie1-card .movie1-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: auto;
+  max-height: 350px;
+}
+.movie1-card .movie1-text {
+  display: flex;
+  padding-right: 16px;
+  justify-content: space-between;
+  font-family: Lato;
+}
+.movie1-card p {
+  margin: 16px;
+  font-size: 1.5em;
+  margin-left: 30px;
+}
+.movie1-card button {
+  margin: 16px;
+  font-size: 2em;
+  font-family: "Teko";
+  width: 70%;
+  border-radius: 4px;
+  background-color: #231651;
+  color: #ffffff;
+}
+
+.movie2-3 {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+  gap: 0;
+  margin-top: 48px;
+}
+
+.movie2-card {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  color: rgb(7, 7, 7);
+}
+
+.movie2-text {
+  margin-left: 10px;
+  font-family: Lato;
+}
+
+.movie2btn {
+  padding: 15px 100px;
+  font-size: 2em;
+  font-family: Teko;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.movie2btn-2{
+  padding: 15px 100px;
+  font-size: 2em;
+  font-family: Teko;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.movie2-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie345-card {
+  margin-top: 16px;
+  display: flex;
+  background-color: #ffffff;
+  color: #070410;
+}
+
+.movie345-text {
+  margin-left: 10px;
+  font-family: Lato;
+}
+
+.m345btn {
+  width: 86%;
+  font-family: Teko;
+  padding: 15px 120px;
+  font-size: 2em;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 120px;
+  margin-left: 25px;
+  margin-bottom: 16px;
+}
+
+.m345btn-2 {
+  width: 86%;
+  font-family: Teko;
+  padding: 15px 120px;
+  font-size: 2em;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 170px;
+  margin-left: 25px;
+}
+
+.movie345-image {
+  width: 50%;
+}
+
+/*MEDIA QUERY DESKTOP*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070410;
+  font-family: "Lato";
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: Lato;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #231651;
+}
+nav .logo {
+  color: #ffffff;
+  margin: 16px;
+  font-size: 3em;
+  font-family: "Teko";
+}
+nav ul {
+  margin: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin: 48px;
+  font-family: Lato;
+}
+nav .Search-button {
+  margin: 16px;
+  font-size: 2em;
+  font-family: "Teko";
+  margin-right: 16px;
+  border-radius: 10px;
+}
+
+.main-container {
+  max-width: 900px;
+  padding: 48px;
+  margin: auto auto;
+}
+
+.movie1-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: rgb(11, 11, 11);
+}
+
+.movie1-card .movie1-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: auto;
+  max-height: 350px;
+}
+.movie1-card .movie1-text {
+  display: flex;
+  padding-right: 16px;
+  justify-content: space-between;
+  font-family: Lato;
+}
+.movie1-card p {
+  margin: 16px;
+  font-size: 1.5em;
+  margin-left: 30px;
+}
+.movie1-card button {
+  margin: 16px;
+  font-size: 2em;
+  font-family: "Teko";
+  width: 70%;
+  border-radius: 4px;
+  background-color: #231651;
+  color: #ffffff;
+}
+
+.movie2-3 {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+  gap: 48px;
+  margin-top: 48px;
+}
+
+.movie2-card {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  color: rgb(7, 7, 7);
+}
+
+.movie2-text {
+  margin-left: 10px;
+  font-family: Lato;
+}
+
+.movie2btn {
+  padding: 15px 100px;
+  font-size: 2em;
+  font-family: Teko;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.movie2-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie345-card {
+  margin-top: 16px;
+  display: flex;
+  background-color: #ffffff;
+  color: #070410;
+}
+
+.movie345-text {
+  margin-left: 10px;
+  font-family: Lato;
+}
+
+.m345btn {
+  width: 86%;
+  font-family: Teko;
+  padding: 15px 120px;
+  font-size: 2em;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 120px;
+  margin-left: 25px;
+  margin-bottom: 16px;
+}
+
+.m345btn-2 {
+  width: 86%;
+  font-family: Teko;
+  padding: 15px 120px;
+  font-size: 2em;
+  background-color: #231651;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 170px;
+  margin-left: 25px;
+}
+
+.movie345-image {
+  width: 50%;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media (min-width: 360px) and (max-width: 720px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #070410;
+    font-family: "Lato";
+    color: #ffffff;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  .movie1-card {
+    flex-direction: column;
+    overflow: hidden;
+    color: black;
+  }
+
+  .movie1-card .movie1-text {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    font-family: Lato;
+  }
+  .movie1-card p {
+    font-size: 1.5em;
+    margin-bottom: -270px;
+  }
+
+  .movie1-card button {
+    font-family: Teko;
+    font-size: 2em;
+    background-color: #231651;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 50px;
+    display: flex;
+  }
+
+  .main-container {
+    max-width: 900px;
+    padding: 0;
+    margin: auto auto;
+    margin-top: 30px;
+  }
+
+  .movie2-3 {
+    flex-wrap: wrap;
+  }
+
+  .movie2-text {
+    font-family: Lato;
+    line-height: 1.8;
+  }
+
+  .movie2-card {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .movie345-card {
+    flex-direction: column;
+  }
+
+  .movie345-image {
+    width: 100%;
+  }
+
+  .m345btn {
+    font-family: Teko;
+    font-size: 2em;
+    background-color: #231651;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin: 16px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .m345btn-2 {
+    font-family: Teko;
+    font-size: 2em;
+    background-color: #231651;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin: 16px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*MEDIA QUERY TABLET*/
+
+@media (min-width: 720px) and (max-width: 1023px) {
+  .main-container {
+    column-count: 2;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #070410;
+    font-family: "Lato";
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-family: Lato;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #231651;
+  }
+  nav .logo {
+    color: #ffffff;
+    margin: 16px;
+    font-size: 3em;
+    font-family: "Teko";
+  }
+  nav ul {
+    margin: -80px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    white-space: nowrap;
+  }
+  nav li {
+    display: inline;
+    margin: 28px;
+    font-family: Lato;
+  }
+  nav .Search-button {
+    margin: 16px;
+    font-size: 2em;
+    font-family: "Teko";
+    margin-right: 16px;
+    border-radius: 10px;
+  }
+
+  .movie1-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: rgb(11, 11, 11);
+    break-inside: avoid;
+  }
+
+  .movie1-card .movie1-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: auto;
+    max-height: 350px;
+    break-inside: avoid;
+  }
+  .movie1-card .movie1-text {
+    display: flex;
+    padding-right: 16px;
+    justify-content: space-between;
+    font-family: Lato;
+    break-inside: avoid;
+  }
+  .movie1-card p {
+    margin: 16px;
+    font-size: 1.5em;
+    margin-left: 30px;
+  }
+  .movie1-card button {
+    margin: 16px;
+    font-size: 2em;
+    font-family: "Teko";
+    border-radius: 4px;
+    background-color: #231651;
+    color: #ffffff;
+    align-items: center;
+    break-inside: avoid;
+    margin-left: 25px;
+    padding: 15px 150px;
+    width: 85%;
+    white-space: nowrap;
+  }
+
+  .movie2-3 {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    break-inside: avoid;
+  }
+
+  .movie2-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: rgb(11, 11, 11);
+    break-inside: avoid;
+  }
+
+  .movie2-text {
+    margin-left: 10px;
+    font-family: Lato;
+    line-height: 1;
+    break-inside: avoid;
+  }
+
+  .movie2btn {
+    font-size: 2em;
+    font-family: Teko;
+    background-color: #231651;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    break-inside: avoid;
+    position: relative;
+    top: 38px;
+  }
+
+  .movie2btn-2{
+    margin: 0;
+    white-space: nowrap;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .text-2{
+    margin-top: 30px;
+    margin-right: 300px;
+    width: 390px;
+  }
+}
